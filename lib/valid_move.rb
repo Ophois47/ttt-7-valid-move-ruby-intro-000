@@ -8,7 +8,7 @@ def valid_move?(board, index)
     return false
   end
 
-  if board != 1..9
+  if board[0] != 1..9
     return false
   end
 end
