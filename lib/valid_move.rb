@@ -2,11 +2,9 @@
 def valid_move?(board, index)
   if position_taken == true
     return false
-  end
 
   elsif board != 1..9
     return false
-  end
 
   else
     return true
