@@ -4,12 +4,9 @@ def valid_move?(board, index)
     return true
   end
 
-  if position_taken?(board, index) == true
-    return nil
+  if position_taken?(board, index) == true || != 1..9
+    return false
   end
-
-  if board[0] != 1..9
-    return true
 
   else
     return false
