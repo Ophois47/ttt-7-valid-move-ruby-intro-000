@@ -2,6 +2,8 @@
 def valid_move?(board, index)
   if position_taken?(board, index) == false
     return false
+  else
+    return true
   end
 
   if board[0] != 1..9
