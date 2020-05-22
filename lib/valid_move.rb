@@ -1,6 +1,10 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if position_taken == true || board != 1..9
+  if position_taken == true
+    return false
+  end
+
+  elsif board != 1..9
     return false
   end
 
